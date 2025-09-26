@@ -11,6 +11,7 @@ Model Context Protocol (MCP) specifications for the DIGIT platform, providing st
 
 ### Platform Operations
 - [**DIGIT Data MCP**](./digit-data-mcp.md) - Data operations, ETL, and analytics
+- [**DIGIT Dashboard & Analytics MCP**](./digit-dashboard-analytics-mcp.md) - Dashboard creation, KPIs, and real-time analytics
 - [**DIGIT Telemetry MCP**](./digit-telemetry-mcp.md) - Logging, metrics, tracing, and observability
 
 ### Development Tools
@@ -29,6 +30,7 @@ Model Context Protocol (MCP) specifications for the DIGIT platform, providing st
 | MDMS | Configuration management | `create_master`, `search_master`, `version_master_data` |
 | Workflow | Business process automation | `create_workflow`, `transition_workflow`, `track_sla_compliance` |
 | Data | Data processing | `create_etl_pipeline`, `run_data_quality_check`, `execute_query` |
+| Dashboard & Analytics | Visualization & KPIs | `create_dashboard`, `create_chart`, `define_kpi`, `generate_report` |
 | Telemetry | Observability | `search_logs`, `query_metrics`, `search_traces` |
 | Documentation | API docs | `generate_api_docs`, `create_api_playground`, `validate_api_docs` |
 | UI Components | Frontend development | `create_component`, `generate_form`, `create_data_table` |
