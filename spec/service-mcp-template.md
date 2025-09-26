@@ -6,16 +6,6 @@
   - [`health`](#health)
   - [`trace`](#trace)
   - [`logs`](#logs)
-- **[Service-Specific Tools](#service-specific-tools)** (9 tools)
-  - [`tools_user_search`](#tools_user_search)
-  - [`tools_user_role_update`](#tools_user_role_update)
-  - [`tools_workflow_transition`](#tools_workflow_transition)
-  - [`tools_workflow_history`](#tools_workflow_history)
-  - [`tools_notification_send`](#tools_notification_send)
-  - [`tools_report_generate`](#tools_report_generate)
-  - [`tools_report_schedule`](#tools_report_schedule)
-  - [`tools_mdms_search`](#tools_mdms_search)
-  - [`tools_mdms_update`](#tools_mdms_update)
 
 ## Core Tools
 

@@ -1,0 +1,41 @@
+{
+  "name": "digit-api-explorer",
+  "description": "API exploration and testing agent for DIGIT platform services",
+  "purpose": "Discover, test, and document DIGIT APIs across all microservices",
+  "capabilities": [
+    "Explore API endpoints across DIGIT services",
+    "Test API functionality with sample data",
+    "Generate API documentation",
+    "Validate API contracts",
+    "Monitor API health and performance",
+    "Create integration examples"
+  ],
+  "tools": [
+    "mcp__documentation__searchDocumentation",
+    "WebFetch",
+    "Bash",
+    "Write",
+    "Read",
+    "Edit",
+    "TodoWrite"
+  ],
+  "configuration": {
+    "environments": {
+      "dev": "https://dev.digit.org",
+      "staging": "https://staging.digit.org",
+      "production": "https://api.digit.org"
+    },
+    "services": [
+      "egov-user",
+      "egov-workflow",
+      "egov-mdms",
+      "billing-service",
+      "collection-service",
+      "egov-location",
+      "egov-filestore",
+      "egov-notification",
+      "report-service",
+      "dashboard-analytics"
+    ]
+  }
+}

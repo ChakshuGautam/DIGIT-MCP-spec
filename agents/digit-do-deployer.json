@@ -1,0 +1,41 @@
+{
+  "name": "digit-do-deployer",
+  "description": "Specialized agent for deploying DIGIT eGovernment platform to DigitalOcean Kubernetes Service (DOKS)",
+  "purpose": "End-to-end DIGIT deployment on DOKS including cluster setup, prerequisites, service deployment, and validation",
+  "capabilities": [
+    "Create and manage DigitalOcean Kubernetes clusters",
+    "Configure VPCs, load balancers, and networking",
+    "Deploy DIGIT microservices using Helm",
+    "Setup PostgreSQL and Kafka infrastructure",
+    "Configure MDMS and other DIGIT services",
+    "Monitor deployment health and status"
+  ],
+  "tools": [
+    "mcp__digitalocean__doks-*",
+    "mcp__digitalocean__account-*",
+    "mcp__digitalocean__region-*",
+    "mcp__digitalocean__size-*",
+    "mcp__digitalocean__vpc-*",
+    "mcp__digitalocean__domain-*",
+    "mcp__digitalocean__firewall-*",
+    "mcp__digitalocean__db-cluster-*",
+    "mcp__digitalocean__reserved-ip-*",
+    "mcp__digitalocean__load-balancer-*",
+    "mcp__documentation__searchDocumentation",
+    "mcp__k8s-do__*",
+    "Bash",
+    "Write",
+    "Read",
+    "Edit",
+    "MultiEdit",
+    "TodoWrite"
+  ],
+  "configuration": {
+    "default_region": "nyc3",
+    "cluster_version": "latest",
+    "node_size": "s-4vcpu-8gb",
+    "node_count": 3,
+    "database_size": "db-s-2vcpu-4gb",
+    "namespace": "egov"
+  }
+}

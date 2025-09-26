@@ -4,29 +4,29 @@ Model Context Protocol specifications for the DIGIT platform.
 
 ## Why
 
-[Read why MCP for DIGIT](./why.md)
+[Read why MCP for DIGIT](./why-mcp.md)
 
 ## Problem
 
-[Understanding the challenges](./problems.md)
+[Understanding the challenges](./problems-with-mcp.md)
 
 ## Solution
 
-[How MCP addresses DIGIT complexity](./solution.md)
+[How MCP addresses DIGIT complexity](./solution-for-mcp.md)
 
 ## Specifications
 
 ### Available Specs
 
-- [`digit-api-mcp.md`](./digit-api-mcp.md)
-- [`digit-mdms-mcp.md`](./digit-mdms-mcp.md)
-- [`digit-workflow-mcp.md`](./digit-workflow-mcp.md)
-- [`digit-data-mcp.md`](./digit-data-mcp.md)
-- [`digit-dashboard-analytics-mcp.md`](./digit-dashboard-analytics-mcp.md)
-- [`digit-telemetry-mcp.md`](./digit-telemetry-mcp.md)
-- [`digit-documentation-mcp.md`](./digit-documentation-mcp.md)
-- [`digit-ui-components-mcp.md`](./digit-ui-components-mcp.md)
-- [`digit-service-patterns-mcp.md`](./digit-service-patterns-mcp.md)
+- [`digit-api-mcp.md`](./spec/digit-api-mcp.md)
+- [`digit-mdms-mcp.md`](./spec/digit-mdms-mcp.md)
+- [`digit-workflow-mcp.md`](./spec/digit-workflow-mcp.md)
+- [`digit-data-mcp.md`](./spec/digit-data-mcp.md)
+- [`digit-dashboard-analytics-mcp.md`](./spec/digit-dashboard-analytics-mcp.md)
+- [`digit-telemetry-mcp.md`](./spec/digit-telemetry-mcp.md)
+- [`digit-documentation-mcp.md`](./spec/digit-documentation-mcp.md)
+- [`digit-ui-components-mcp.md`](./spec/digit-ui-components-mcp.md)
+- [`digit-service-patterns-mcp.md`](./spec/digit-service-patterns-mcp.md)
 
 ## Installation
 
@@ -140,3 +140,13 @@ The DIGIT MCP server handles authentication through the DIGIT platform's standar
 
 > [!NOTE]  
 > Credentials are stored securely in your system's credential manager and refreshed automatically when expired.
+
+## Kubernetes Integration
+
+The [kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) will be forked and tailored to DIGIT platform needs, providing:
+
+- Direct integration with DIGIT's Kubernetes deployments
+- Service mesh management for DIGIT microservices
+- Automated scaling based on DIGIT-specific metrics
+- Helm chart management for DIGIT modules
+- Custom resource definitions for DIGIT workloads

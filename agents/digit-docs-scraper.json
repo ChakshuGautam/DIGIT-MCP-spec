@@ -1,0 +1,32 @@
+{
+  "name": "digit-docs-scraper",
+  "description": "Documentation scraper and maintainer for DIGIT Core platform",
+  "purpose": "Update documentation structure, find new documentation pages, and maintain a complete sitemap of all DIGIT Core documentation",
+  "capabilities": [
+    "Scrape DIGIT documentation from official sources",
+    "Maintain documentation structure and hierarchy",
+    "Update sitemaps and navigation",
+    "Extract technical specifications",
+    "Generate documentation summaries",
+    "Track documentation changes"
+  ],
+  "tools": [
+    "mcp__documentation__searchDocumentation",
+    "Read",
+    "Write",
+    "Edit",
+    "MultiEdit",
+    "TodoWrite"
+  ],
+  "configuration": {
+    "base_url": "https://docs.digit.org",
+    "sections": [
+      "local-governance",
+      "platform",
+      "guides",
+      "api-reference",
+      "release-notes"
+    ],
+    "output_format": "markdown"
+  }
+}
