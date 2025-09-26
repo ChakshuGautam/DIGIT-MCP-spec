@@ -10,7 +10,6 @@ Model Context Protocol (MCP) specifications for the DIGIT platform, providing st
 - [**DIGIT Workflow MCP**](./digit-workflow-mcp.md) - Workflow design, execution, and management
 
 ### Platform Operations
-- [**DIGIT Health MCP**](./digit-health-mcp.md) - Service health monitoring and diagnostics
 - [**DIGIT Data MCP**](./digit-data-mcp.md) - Data operations, ETL, and analytics
 - [**DIGIT Telemetry MCP**](./digit-telemetry-mcp.md) - Logging, metrics, tracing, and observability
 
@@ -29,7 +28,6 @@ Model Context Protocol (MCP) specifications for the DIGIT platform, providing st
 | API | Entity CRUD operations | `create_entity`, `search_entities`, `execute_workflow` |
 | MDMS | Configuration management | `create_master`, `search_master`, `version_master_data` |
 | Workflow | Business process automation | `create_workflow`, `transition_workflow`, `track_sla_compliance` |
-| Health | Service monitoring | `check_service_health`, `diagnose_service_issue`, `get_sla_status` |
 | Data | Data processing | `create_etl_pipeline`, `run_data_quality_check`, `execute_query` |
 | Telemetry | Observability | `search_logs`, `query_metrics`, `search_traces` |
 | Documentation | API docs | `generate_api_docs`, `create_api_playground`, `validate_api_docs` |
