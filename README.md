@@ -1,18 +1,11 @@
 # DIGIT MCP
 
-Model Context Protocol specifications for the DIGIT platform.
+Model Context Protocol specifications for the DIGIT platform. Read more on [Why MCPs are needed for DIGIT?](./why-mcp.md)
 
-## Why
-
-[Read why MCP for DIGIT](./why-mcp.md)
-
-## Problem
+## Problems with MCP
 
 [Understanding the challenges](./problems-with-mcp.md)
-
-## Solution
-
-[How MCP addresses DIGIT complexity](./solution-for-mcp.md)
+[Solution to challenges](./solution-for-mcp.md)
 
 ## Specifications
 
@@ -27,6 +20,16 @@ Model Context Protocol specifications for the DIGIT platform.
 - [`digit-documentation-mcp.md`](./spec/digit-documentation-mcp.md)
 - [`digit-ui-components-mcp.md`](./spec/digit-ui-components-mcp.md)
 - [`digit-service-patterns-mcp.md`](./spec/digit-service-patterns-mcp.md)
+
+## Agents
+
+### Available Agents
+
+- [`digit-do-deployer`](./agents/digit-do-deployer.json) - Deploy DIGIT to DigitalOcean Kubernetes
+- [`digit-docs-scraper`](./agents/digit-docs-scraper.json) - Maintain DIGIT documentation
+- [`digit-api-explorer`](./agents/digit-api-explorer.json) - Explore and test DIGIT APIs
+
+See [agents documentation](./agents/README.md) for details.
 
 ## Installation
 
